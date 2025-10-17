@@ -1,0 +1,33 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ff5252;
+}
+
+#head {
+  width: 100%;
+  height: 150px;
+  background-image: url('header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+}
+
+#head h1 {
+  margin: 0;
+  font-size: 48 px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+#head h2 {
+  margin: 0;
+  font-size: 28 px;
+  font-weight: normal;
+}
