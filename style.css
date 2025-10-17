@@ -31,3 +31,64 @@ body {
   font-size: 28 px;
   font-weight: normal;
 }
+
+section {
+  color: #6a4b4b;
+  font-family: sans-serif;
+  border: 3px solid white;
+  text-align: center;
+  box-shadow: 0 4px 10px black;
+  border-radius: 10px;
+  padding: 15 px;
+  width: 80%;
+}
+
+section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section {
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 75px;
+  box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+.game--title {
+  padding-top: 20px;
+}
+
+.game--container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cell {
+  font-family: "Poppins", sans-serif;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 0 1px black;
+  border: 1px solid black;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 20px;
+}
