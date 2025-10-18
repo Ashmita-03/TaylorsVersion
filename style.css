@@ -5,7 +5,7 @@ body {
 
 #head {
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-image: url('header.png');
   background-size: cover;
   background-position: center;
@@ -21,47 +21,51 @@ body {
 
 #head h1 {
   margin: 0;
-  font-size: 48 px;
+  font-family:'Playfair Display', serif;
+  font-size: 65 px;
   color: black;
   letter-spacing: 2px;
 }
 
 #head h2 {
   margin: 0;
-  font-size: 28 px;
+  font-family:'Playfair Display', serif;
+  font-size: 34 px;
   font-weight: normal;
 }
 
 section {
   color: #6a4b4b;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   border: 3px solid white;
   text-align: center;
   box-shadow: 0 4px 10px black;
   border-radius: 10px;
-  padding: 15 px;
   width: 80%;
 }
 
 section h2 {
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Montserrat', serif;
+  margin-bottom: 18px;
 }
 
 section p {
-  font-size: 16px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: 'Montserrat', serif;
+  margin-bottom: 18px;
 }
 
 section h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: 'Montserrat', serif;
+  margin-bottom: 12px;
 }
 
 section {
   text-align: center;
   border-radius: 10px;
-  width: 400px;
+  width: 80%;
   margin: auto;
   background-color: #fff;
   margin-top: 75px;
@@ -76,7 +80,7 @@ section {
 .game--container {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  width: 150px;
+  width: 260px;
   margin: 0 auto;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -84,13 +88,13 @@ section {
 
 .cell {
   font-family: "Poppins", sans-serif;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   box-shadow: 0 0 0 1px black;
   border: 1px solid black;
   cursor: pointer;
-  line-height: 50px;
-  font-size: 20px;
+  line-height: 80px;
+  font-size: 36px;
 }
 
 button {

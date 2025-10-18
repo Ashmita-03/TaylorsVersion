@@ -35,7 +35,7 @@ function handleCellPlayed(clickedCell, clickedCellIndex) {
         clickedCell.innerHTML = currentPlayer;
     }
 
-    const winningConditions = [
+const winningConditions = [
         [0, 1, 2],
         [3, 4, 5],
         [6, 7, 8],
@@ -45,7 +45,7 @@ function handleCellPlayed(clickedCell, clickedCellIndex) {
         [0, 4, 8],
         [2, 4, 6]
     ];
-    function handleResultValidation() {
+function handleResultValidation() {
         let roundWon = false;
         for (let i = 0; i <= 7; i++) {
             const winCondition = winningConditions[i];
@@ -74,4 +74,18 @@ function handleCellPlayed(clickedCell, clickedCellIndex) {
     }
 
     handlePlayerChange();
+}
+
+function handlePlayerChange() {
+    currentPlayer = currentPlayer === "X" ? "O" : "X";
+    statusDisplay.innerHTML = currentPlayerTurn();
+}
+
+function handleRestartGame() {
+    gameActive = true;
+    currentPlayer = "X";
+    gameState = ["", "", "", "", "", "", "", "", ""];
+    statusDisplay.innerHTML = currentPlayerTurn();
+    document.querySelectorAll('.cell')
+               .forEach(cell => cell.innerHTML = "");
 }
