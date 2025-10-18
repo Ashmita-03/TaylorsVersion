@@ -92,3 +92,35 @@ section {
   line-height: 50px;
   font-size: 20px;
 }
+
+button {
+  margin-bottom: 25px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff5252;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.25s;
+  background-color: #fea2a7;
+}
+
+iframe {
+  width: 360px;
+  height: 640px;
+  border: none;
+  border-radius: 10px;
+}
+
+.taylorImg{
+
+  width: 100%;
+  max-width: 520px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+}
