@@ -23,13 +23,14 @@ body {
   margin: 0;
   font-family:'Playfair Display', serif;
   font-size: 65 px;
-  color: black;
+  color: rgb(109, 17, 17);
   letter-spacing: 2px;
 }
 
 #head h2 {
   margin: 0;
   font-family:'Playfair Display', serif;
+  color: rgb(109, 17, 17);
   font-size: 34 px;
   font-weight: normal;
 }
@@ -37,7 +38,7 @@ body {
 section {
   color: #6a4b4b;
   font-family: "Montserrat", sans-serif;
-  border: 3px solid white;
+  border: 3px solid rgb(205, 181, 188);
   text-align: center;
   box-shadow: 0 4px 10px black;
   border-radius: 10px;
@@ -67,7 +68,7 @@ section {
   border-radius: 10px;
   width: 80%;
   margin: auto;
-  background-color: #fff;
+  background-color: #fadbdb;
   margin-top: 75px;
   box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
   padding: 20px 0;
